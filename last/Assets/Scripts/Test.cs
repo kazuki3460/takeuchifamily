@@ -49,7 +49,7 @@ public class Test : MonoBehaviour
     {
         es = Resources.Load("takeuchi") as Entity_Sheet1; //エクセル呼び出し  
         int i;
-        for (i = 0; i < 16; i++)
+        for (i = 0; i < 20; i++)
         {//長さはlength取得に変更すべき
             if (SampleStart.Equals(es.sheets[0].list[i].name))
             {

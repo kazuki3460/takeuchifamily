@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -7,160 +8,112 @@ using UnityEngine.SceneManagement;
 public class stampscript : MonoBehaviour
 {
     public Text stampname;
-    public GameObject tokyo;
-    public GameObject kanda;
-    public GameObject akibahara;
-    public GameObject okachimachi;
-    public GameObject ueno;
-    public GameObject uguisudani;
-    public GameObject nippori;
-    public GameObject nisinippori;
-    public GameObject tabata;
-    public GameObject komagome;
-    public GameObject sugamo;
-    public GameObject otuka;
-    public GameObject ikebukuro;
-    public GameObject meziro;
-    public GameObject takadanobaba;
-    public GameObject sinnokubo;
-    public GameObject sinzyuku;
-    public GameObject yoyogi;
-    public GameObject harazyuku;
-    public GameObject sibuya;
-    public GameObject ebisu;
-    public GameObject meguro;
-    public GameObject gotanda;
-    public GameObject osaki;
-    public GameObject sinagawa;
-    public GameObject takanawagateway;
-    public GameObject tamachi;
-    public GameObject hamamatsucho;
-    public GameObject sinbasi;
-    public GameObject yurakucho;
+
+    public GameObject yoyogiuehara;
+    public GameObject yoyogikouen;
+    public GameObject meizizingumae;
+    public GameObject omotesando;
+    public GameObject nogizaka;
+    public GameObject akasaka;
+    public GameObject kokkaigizido;
+    public GameObject kasumigaseki;
+    public GameObject hibiya;
+    public GameObject nizyubashimae;
+    public GameObject otemachi;
+    public GameObject sinotyanomizu;
+    public GameObject yushima;
+    public GameObject nedu;
+    public GameObject sendagi;
+    public GameObject nishinippori;
+    public GameObject machiya;
+    public GameObject kitasenzyu;
+    public GameObject ayase;
+    public GameObject kitaayase;
+    
     public static int x = 0;
 
     // Start is called before the first frame update
     void Start()
     {
-        if (Test.SampleGoal == "東京")
+        if (Test.SampleGoal == "代々木上原")
         {
-            tokyo.SetActive(true);
+            yoyogiuehara.SetActive(true);
         }
-        else if (Test.SampleGoal == "神田")
+        else if (Test.SampleGoal == "代々木公園")
         {
-            kanda.SetActive(true);
+            yoyogikouen.SetActive(true);
         }
-        else if (Test.SampleGoal == "秋葉原")
+        else if (Test.SampleGoal == "明治神宮前")
         {
-            akibahara.SetActive(true);
+            meizizingumae.SetActive(true);
         }
-        else if (Test.SampleGoal == "御徒町")
+        else if (Test.SampleGoal == "表参道")
         {
-            okachimachi.SetActive(true);
+            omotesando.SetActive(true);
         }
-        else if (Test.SampleGoal == "上野")
+        else if (Test.SampleGoal == "乃木坂")
         {
-            ueno.SetActive(true);
+            nogizaka.SetActive(true);
         }
-        else if (Test.SampleGoal == "鶯谷")
+        else if (Test.SampleGoal == "赤坂")
         {
-            uguisudani.SetActive(true);
+            akasaka.SetActive(true);
         }
-        else if (Test.SampleGoal == "日暮里")
+        else if (Test.SampleGoal == "国会議事堂前")
         {
-            nippori.SetActive(true);
+            kokkaigizido.SetActive(true);
+        }
+        else if (Test.SampleGoal == "霞ヶ関")
+        {
+            kasumigaseki.SetActive(true);
+        }
+        else if (Test.SampleGoal == "日比谷")
+        {
+            hibiya.SetActive(true);
+        }
+        else if (Test.SampleGoal == "二重橋前")
+        {
+            nizyubashimae.SetActive(true);
+        }
+        else if (Test.SampleGoal == "大手町")
+        {
+            otemachi.SetActive(true);
+        }
+        else if (Test.SampleGoal == "新御茶ノ水")
+        {
+            sinotyanomizu.SetActive(true);
+        }
+        else if (Test.SampleGoal == "湯島")
+        {
+            yushima.SetActive(true);
+        }
+        else if (Test.SampleGoal == "根津")
+        {
+            nedu.SetActive(true);
+        }
+        else if (Test.SampleGoal == "千駄木")
+        {
+            sendagi.SetActive(true);
         }
         else if (Test.SampleGoal == "西日暮里")
         {
-            nisinippori.SetActive(true);
+            nishinippori.SetActive(true);
         }
-        else if (Test.SampleGoal == "田端")
+        else if (Test.SampleGoal == "町屋")
         {
-            tabata.SetActive(true);
+            machiya.SetActive(true);
         }
-        else if (Test.SampleGoal == "駒込")
+        else if (Test.SampleGoal == "北千住")
         {
-            komagome.SetActive(true);
+            kitasenzyu.SetActive(true);
         }
-        else if (Test.SampleGoal == "巣鴨")
+        else if (Test.SampleGoal == "綾瀬")
         {
-            sugamo.SetActive(true);
+            ayase.SetActive(true);
         }
-        else if (Test.SampleGoal == "大塚")
+        else if (Test.SampleGoal == "北綾瀬")
         {
-            otuka.SetActive(true);
-        }
-        else if (Test.SampleGoal == "池袋")
-        {
-            ikebukuro.SetActive(true);
-        }
-        else if (Test.SampleGoal == "目白")
-        {
-            meziro.SetActive(true);
-        }
-        else if (Test.SampleGoal == "高田馬場")
-        {
-            takadanobaba.SetActive(true);
-        }
-        else if (Test.SampleGoal == "新大久保")
-        {
-            sinnokubo.SetActive(true);
-        }
-        else if (Test.SampleGoal == "新宿")
-        {
-            sinzyuku.SetActive(true);
-        }
-        else if (Test.SampleGoal == "代々木")
-        {
-            yoyogi.SetActive(true);
-        }
-        else if (Test.SampleGoal == "原宿")
-        {
-            harazyuku.SetActive(true);
-        }
-        else if (Test.SampleGoal == "渋谷")
-        {
-            sibuya.SetActive(true);
-        }
-        else if (Test.SampleGoal == "恵比寿")
-        {
-            ebisu.SetActive(true);
-        }
-        else if (Test.SampleGoal == "目黒")
-        {
-            meziro.SetActive(true);
-        }
-        else if (Test.SampleGoal == "五反田")
-        {
-            gotanda.SetActive(true);
-        }
-        else if (Test.SampleGoal == "大崎")
-        {
-            osaki.SetActive(true);
-        }
-        else if (Test.SampleGoal == "品川")
-        {
-            sinagawa.SetActive(true);
-        }
-        else if (Test.SampleGoal == "高輪ゲートウェイ")
-        {
-            takanawagateway.SetActive(true);
-        }
-        else if (Test.SampleGoal == "田町")
-        {
-            tamachi.SetActive(true);
-        }
-        else if (Test.SampleGoal == "浜松町")
-        {
-            hamamatsucho.SetActive(true);
-        }
-        else if (Test.SampleGoal == "新橋")
-        {
-            sinbasi.SetActive(true);
-        }
-        else if (Test.SampleGoal == "有楽町")
-        {
-            yurakucho.SetActive(true);
+            kitaayase.SetActive(true);
         }
         else
         {
@@ -170,9 +123,8 @@ public class stampscript : MonoBehaviour
         stampname.text = Test.SampleGoal;
     }
 public void PushStartButton() {
-        SceneManager.LoadScene("StampseatScene");
         x = x + 1;
-        Debug.Log(x);
+        SceneManager.LoadScene("StampseatScene");
     }
     // Update is called once per frame
     void Update()
