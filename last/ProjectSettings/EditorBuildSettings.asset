@@ -20,64 +20,64 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/StampseatScene.unity
     guid: 390686e4078f3c2468996d70d05fa310
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/06Scene.unity
-    guid: e1d936e0d17eedb44a7bb9881df4c7fb
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/19Scene.unity
-    guid: 1561d91feddd8e54dab989c6de5b7262
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/08Scene.unity
-    guid: 5f6dfc4e46ea6854fa0fc3e0d802d2d3
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/01Scene.unity
-    guid: 06118b02dfe369347a34658d850d4d21
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/02Scene.unity
-    guid: 3bd9a5377852754449b6fab1d3f7cc66
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/03Scene.unity
-    guid: 13783e3b057e47f4b8864a715efb72e3
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/04Scene.unity
-    guid: 634cc8ea96f118e419e135b42e5a10d2
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/05Scene.unity
-    guid: 2af22e28a0e171d4eb7e9b3bd0f01491
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/07Scene.unity
-    guid: e5ffe34e8f137b940902154fdef52a88
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/10Scene.unity
-    guid: 58ebc870961d6e64089304b74c582584
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/11Scene.unity
-    guid: 000a35d8e7f8c914582b5b6c2cb9c55b
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/12Scene.unity
-    guid: a8350626e58f56f41802ceadd8eb895f
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/13Scene.unity
-    guid: 3fe7006f68f0a054a8dd4db5a84ee8f6
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/14Scene.unity
-    guid: 08ae6506156996044923a448af53157d
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/15Scene.unity
-    guid: 8a2c4333c56ce8346bd9d171383cf8c4
-  - enabled: 1
-    path: Assets/Scenes/16Scene.unity
-    guid: 600afc47f341db8419afda31c5dba7f7
-  - enabled: 1
-    path: Assets/Scenes/17Scene.unity
-    guid: ef95ed79a86aad0409fcc79cc0b825fe
-  - enabled: 1
-    path: Assets/Scenes/18Scene.unity
-    guid: 04b2dc69db54602478b5d8bbf29fe2cf
-  - enabled: 1
-    path: Assets/Scenes/20Scene.unity
-    guid: 05be8148670218a4ab9b668804d46167
-  - enabled: 1
-    path: Assets/Scenes/09Scene.unity
-    guid: 203363c6e567aee4f966966d9c8da0e5
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects: {}

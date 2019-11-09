@@ -56,7 +56,6 @@
      <Compile Include="Assets\Scripts\arrive.cs" />
      <Compile Include="Assets\Scripts\stampscript.cs" />
      <Compile Include="Assets\Scripts\stampseat.cs" />
-     <Compile Include="Assets\Scripts\stampseat2.cs" />
      <Compile Include="Assets\Scripts\tamesi.cs" />
      <Compile Include="Assets\Scripts\Test.cs" />
      <Compile Include="Assets\Terasurware\Classes\Entity_Sheet1.cs" />
