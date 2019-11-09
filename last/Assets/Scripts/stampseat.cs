@@ -26,6 +26,9 @@ public class stampseat : MonoBehaviour
     public GameObject stamp18;
     public GameObject stamp19;
     public GameObject stamp20;
+
+    public Button button;
+
     public int y;
     // Start is called before the first frame update
     void Start()
