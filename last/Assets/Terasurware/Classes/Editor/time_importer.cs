@@ -6,12 +6,11 @@ using System.Xml.Serialization;
 using NPOI.HSSF.UserModel;
 using NPOI.XSSF.UserModel;
 using NPOI.SS.UserModel;
-using System;
 
 public class time_importer : AssetPostprocessor {
 	private static readonly string filePath = "Assets/time.xls";
 	private static readonly string exportPath = "Assets/Resources/time.asset";
-	private static readonly string[] sheetNames = { "Sheet2", };
+	private static readonly string[] sheetNames = { "Sheet2","Sheet1", };
 	
 	static void OnPostprocessAllAssets (string[] importedAssets, string[] deletedAssets, string[] movedAssets, string[] movedFromAssetPaths)
 	{
